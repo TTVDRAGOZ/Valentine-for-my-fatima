@@ -1,7 +1,7 @@
 // Update CSS variables from configuration
 function applyTheme() {
     const config = window.VALENTINE_CONFIG;
-    const root = document.documentElement;
+    const root = document.documentElement; 
 
     // Apply colors
     root.style.setProperty('--background-color-1', config.colors.backgroundStart);
